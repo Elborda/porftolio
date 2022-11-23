@@ -5,6 +5,7 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Tech />
       <Projects />
       <Services />
+      <Contact />
     </>
   );
 }

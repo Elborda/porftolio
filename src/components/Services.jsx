@@ -11,7 +11,9 @@ const Services = () => {
   return (
     <>
       <Flex justifyContent="center" alignItems="center" padding="20px 0 20px 0">
-        <Heading>Services</Heading>
+        <Heading fontSize="50px" color="#666666">
+          Services
+        </Heading>
       </Flex>
       <Flex
         justifyContent="center"
@@ -24,11 +26,19 @@ const Services = () => {
             justifyContent="center"
             alignItems="center"
             boxShadow="md"
-            padding="10px"
-            rounded="20px"
+            padding="25px"
+            rounded="6px"
+            border="1px solid lightgray"
           >
-            <AiOutlineLaptop />
-            <Heading as="h2">Web Development</Heading>
+            <AiOutlineLaptop fontSize="40px" />
+            <Heading
+              as="h2"
+              color="#6B6675"
+              fontSize="30px"
+              padding="10px 0 10px 0"
+            >
+              Web Development
+            </Heading>
             <Text>
               Turn and idea into reality, that's what I love to do. From a
               simple web, through a highly convertible landing page, all the way
@@ -36,16 +46,24 @@ const Services = () => {
             </Text>
           </Flex>
           <Flex
-            rounded="20px"
+            rounded="6px"
             flexDir="column"
             justifyContent="center"
             alignItems="center"
             boxShadow="md"
             padding="10px"
+            border="1px solid lightgray"
           >
-            <AiFillCode />
-            <Heading as="h2">Clean Code</Heading>
-            <Text>
+            <AiFillCode fontSize="40px" />
+            <Heading
+              as="h2"
+              color="#6B6675"
+              fontSize="30px"
+              padding="10px 0 10px 0"
+            >
+              Clean Code
+            </Heading>
+            <Text textAlign="center">
               Clean Code A readable code is always twice better, allowing you to
               easily find errors and correct them in a short time. Clean code
               and good practices is a must.
@@ -57,11 +75,19 @@ const Services = () => {
             alignItems="center"
             boxShadow="md"
             padding="10px"
-            rounded="20px"
+            border="1px solid lightgray"
+            rounded="6px"
           >
             <AiOutlineMobile />
-            <Heading as="h2">Responsive Design</Heading>
-            <Text>
+            <Heading
+              as="h2"
+              color="#6B6675"
+              fontSize="30px"
+              padding="10px 0 10px 0"
+            >
+              Responsive Design
+            </Heading>
+            <Text textAlign="center">
               Nowadays, statistically most modern websites and SPA are open on
               mobile devices. Isn't enough to look amazing, it needs to do it in
               multiple screens.
@@ -73,11 +99,14 @@ const Services = () => {
             alignItems="center"
             boxShadow="md"
             padding="10px"
-            rounded="20px"
+            rounded="6px"
+            border="1px solid lightgray"
           >
             <AiOutlineUsergroupAdd />
-            <Heading as="h2">Accesibility</Heading>
-            <Text>
+            <Heading as="h2" color="#6B6675" fontSize="30px">
+              Accesibility
+            </Heading>
+            <Text textAlign="center">
               Amazing webs are for everyone. This days accessibility is more
               important than ever, it's a big mistake to overlook it. SEO takes
               accessibility very seriously.
